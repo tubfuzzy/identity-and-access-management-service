@@ -1,5 +1,5 @@
-# Use arm64v8/golang as base image with Go 1.21.6
-FROM arm64v8/golang:1.21.6-alpine3.15
+# Use golang base image with Go 1.21.6 for x86_64 architecture
+FROM golang:1.21.6-alpine3.15
 
 # Set the working directory inside the container
 WORKDIR /app
